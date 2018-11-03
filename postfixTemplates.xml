@@ -1,12 +1,52 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="creduce@userDefined" key=".creduce" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="collect($EXPR$)-&gt;reduce(function ($carry, $item) {&#10;    return $END$;&#10;});" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="vp@userDefined" key=".vp" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="var_dump($EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="dump@userDefined" key=".dump" provider="builtin.php" topmost="false">
       <conditions />
       <template name="fakeKey" value="dump($EXPR$);" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="dd@userDefined" key=".dd" provider="builtin.php" topmost="false">
+    <template id="dump@userDefined2" key=".dump" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$-&gt;dump()" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="dd@userDefined2" key=".dd" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$-&gt;dd()" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="dd@userDefined" key=".d" provider="builtin.php" topmost="false">
       <conditions />
       <template name="fakeKey" value="dd($EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="dp@userDefined" key=".dp" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="dump($EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="each@userDefined" key=".each" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$-&gt;each(function ($item, $key) {&#10;    return $END$;&#10;});" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="map@userDefined" key=".map" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$-&gt;map(function ($item, $key) {&#10;    return $END$;&#10;});" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="cmap@userDefined" key=".cmap" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="collect($EXPR$)-&gt;map(function ($item, $key) {&#10;    return $END$;&#10;});" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ceach@userDefined" key=".ceach" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="collect($EXPR$)-&gt;each(function ($item, $key) {&#10;    return $END$;&#10;});" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="reduce@userDefined" key=".reduce" provider="builtin.php" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$-&gt;reduce(function ($carry, $item) {&#10;    return $END$;&#10;});" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
