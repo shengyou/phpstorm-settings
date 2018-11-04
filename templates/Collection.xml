@@ -1,5 +1,5 @@
 <templateSet group="Collection">
-  <template name="reduce" value="$COLLECT$-&gt;reduce(function ($CARRY$, $item) {&#10;    return $BODY$;&#10;})$NEXT$;$END$" toReformat="false" toShortenFQNames="true">
+  <template name="reduce" value="$COLLECT$-&gt;reduce(function ($CARRY$, $item) {&#10;    return $BODY$;&#10;})$NEXT$;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="COLLECT" expression="" defaultValue="&quot;collect()&quot;" alwaysStopAt="true" />
     <variable name="CARRY" expression="phpVar" defaultValue="&quot;$carry&quot;" alwaysStopAt="true" />
     <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
