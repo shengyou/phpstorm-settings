@@ -1,0 +1,27 @@
+<templateSet group="Laravel Collection">
+  <template name="each" value="-&gt;each(function ($ITEM$$KEY$) {&#10;    $BODY$;&#10;})$END$" description="collection each statement" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="phpVar" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;, $key&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="map" value="-&gt;map(function ($ITEM$$KEY$) {&#10;    return $BODY$;&#10;})$END$;" description="collection map statement" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEM" expression="phpVar" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;, $key&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="reduce" value="-&gt;reduce(function ($CARRY$$KEY$) {&#10;    return $BODY$;&#10;}$DEFAULT$)$END$;" description="collection reduce statement" toReformat="true" toShortenFQNames="true">
+    <variable name="CARRY" expression="" defaultValue="&quot;$carry&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;, $item&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
