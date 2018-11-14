@@ -11,7 +11,7 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
     </context>
   </template>
   <template name="rtf" value="Route::$METHOD$('$URI$', function ($PARAMETERS$) {&#10;    $END$&#10;});" description="Route closure statement" toReformat="true" toShortenFQNames="true">
@@ -54,7 +54,7 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
-  <template name="rtt" value="Route::get('test', function () {&#10;    return $END$&#10;});" description="Create a testing route" toReformat="true" toShortenFQNames="true">
+  <template name="rtt" value="Route::get('test', function () {&#10;    return $END$&#10;});" description="Create a testing route" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Statement" value="true" />
     </context>
