@@ -49,6 +49,22 @@
           <Count>23</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'Run App'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'Run App'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'docker-compose.yml: ...'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'docker-compose.yml: ...'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="TODO">
         <Item>
           <IdeaActionID>ActivateTODOToolWindow</IdeaActionID>
