@@ -1,0 +1,20 @@
+<templateSet group="Laravel Migration">
+  <template name="dbs" value="DB::statement('$STATEMENT$');" description="DB::statement" toReformat="true" toShortenFQNames="true">
+    <variable name="STATEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="schc" value="Schema::create('$TABLE$', function (Blueprint $table) {&#10;    $table-&gt;increments('id');&#10;    &#10;    $END$&#10;    &#10;    $table-&gt;timestamps();&#10;});" description="Create schema statement" toReformat="true" toShortenFQNames="true">
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="scht" value="Schema::table('$TABLE$', function (Blueprint $table) {&#10;    $END$&#10;});" description="Modify schema statement" toReformat="false" toShortenFQNames="true">
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
