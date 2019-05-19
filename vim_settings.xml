@@ -1,12 +1,12 @@
 <application>
   <component name="VimSettings">
-    <state version="4" enabled="true" />
+    <state version="4" enabled="false" />
     <globalmarks />
     <filemarks>
       <file name="/Dummy.txt" timestamp="1558232433397">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" timestamp="1558235554617">
+      <file name="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" timestamp="1558246862712">
         <mark key="'" line="28" column="0" />
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="0" />
