@@ -3,38 +3,71 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1558229994965">
+      <file name="/Dummy.txt" timestamp="1558230947787">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" timestamp="1558229933771">
-        <mark key="[" line="11" column="8" />
-        <mark key="]" line="15" column="45" />
-        <mark key="." line="15" column="45" />
-        <mark key="^" line="15" column="45" />
+      <file name="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" timestamp="1558231100363">
+        <mark key="'" line="8" column="32" />
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+        <mark key="^" line="15" column="47" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/tennis/src/Tennis.php" timestamp="1558229955770">
-        <mark key="[" line="8" column="0" />
+      <file name="$USER_HOME$/PhpstormProjects/tennis/src/Tennis.php" timestamp="1558231093487">
+        <mark key="[" line="8" column="8" />
         <mark key="]" line="8" column="25" />
         <mark key="^" line="8" column="25" />
         <mark key="." line="8" column="25" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/tennis/composer.json" timestamp="1558229841934">
-        <mark key="[" line="16" column="13" />
-        <mark key="]" line="16" column="13" />
-        <mark key="^" line="16" column="13" />
-        <mark key="." line="16" column="13" />
+      <file name="$USER_HOME$/PhpstormProjects/tennis/composer.json" timestamp="1558230800763">
+        <mark key="[" line="17" column="21" />
+        <mark key="]" line="21" column="4" />
+        <mark key="^" line="21" column="4" />
+        <mark key="." line="21" column="4" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="7" column="32" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+    </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>_</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>int1</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAkdGVubmlzID0gbmV3IFRlbm5pcygpOwoKICAgICAgICAkc2NvcmUgPSAkdGVubmlzLT5zY29yZSgwLCAyKTsKCiAgICAgICAgJHRoaXMtPmFzc2VydEVxdWFscygiTG92ZSBUaGlydHkiLCAkc2NvcmUpOwo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHByb3RlY3RlZCBmdW5jdGlvbiBzZXRVcCgpCiAgICB7CiAgICAgICAgcGFyZW50OjpzZXRVcCgpOwogICAgICAgIAogICAgfQo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICJyZXF1aXJlLWRldiI6IHsKICAgICAgICAicGhwdW5pdC9waHB1bml0IjogIl44LjEiCiAgICB9LAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICJyZXF1aXJlLWRldiI6IHsKICAgICAgICAicGhwdW5pdC9waHB1bml0IjogIl44LjEiCiAgICB9LAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
-      </register>
-      <register name="-" type="4">
-        <text>_</text>
       </register>
     </registers>
     <search>
@@ -42,10 +75,13 @@
       <show-last>false</show-last>
     </search>
     <history>
+      <history-search />
       <history-cmd>
         <entry>w</entry>
         <entry>wq</entry>
       </history-cmd>
+      <history-expr />
+      <history-input />
     </history>
     <shortcut-conflicts />
     <editor>
