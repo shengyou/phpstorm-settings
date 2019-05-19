@@ -6,14 +6,14 @@
       <file name="/Dummy.txt" timestamp="1558232433397">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" timestamp="1558232999509">
-        <mark key="[" line="23" column="21" />
-        <mark key="]" line="23" column="15" />
-        <mark key="." line="23" column="15" />
-        <mark key="^" line="23" column="15" />
+      <file name="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" timestamp="1558235554617">
+        <mark key="'" line="28" column="0" />
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
-      <file name="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" timestamp="1558231100363">
-        <mark key="'" line="8" column="32" />
+      <file name="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" timestamp="1558236046664">
+        <mark key="'" line="14" column="0" />
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
@@ -39,10 +39,19 @@
     </filemarks>
     <jumps>
       <jump line="7" column="32" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+      <jump line="17" column="47" filename="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" />
+      <jump line="7" column="0" filename="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" />
+      <jump line="28" column="0" filename="$USER_HOME$/PhpstormProjects/tennis-laravel/tests/Unit/TennisTest.php" />
+      <jump line="15" column="8" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+      <jump line="9" column="0" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+      <jump line="17" column="0" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+      <jump line="12" column="0" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+      <jump line="13" column="8" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
+      <jump line="14" column="0" filename="$USER_HOME$/PhpstormProjects/tennis/tests/TennisTest.php" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text>All</text>
@@ -51,34 +60,34 @@
         <text encoding="base64">ICAgIHB1YmxpYyBmdW5jdGlvbiB0ZXN0TG92ZUFsbCgpCiAgICB7CiAgICAgICAgJHRlbm5pcyA9IG5ldyBUZW5uaXMoKTsKCiAgICAgICAgJHNjb3JlID0gJHRlbm5pcy0+c2NvcmUoMCwgMCk7CgogICAgICAgICR0aGlzLT5hc3NlcnRFcXVhbHMoJHNjb3JlLCAnTG92ZSBBbGwnKTsKICAgIH0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBpZiAK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICBwdWJsaWMgZnVuY3Rpb24gdGVzdEZpZnRlZW5Mb3ZlKCkKICAgIHsKICAgICAgICAkdGVubmlzID0gbmV3IFRlbm5pcygpOwoKICAgICAgICAkc2NvcmUgPSAkdGVubmlzLT5zY29yZSgxLCAwKTsKCiAgICAgICAgJHRoaXMtPmFzc2VydEVxdWFscygkc2NvcmUsICdGaWZ0ZWVuIExvdmUnKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgJHNjb3JlOwo=</text>
+        <text encoding="base64">ICAgIH0KfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBmdW5jdGlvbiB0ZXN0RmlmdGVlbkxvdmUoKQogICAgewogICAgICAgICR0ZW5uaXMgPSBuZXcgVGVubmlzKCk7CgogICAgICAgICRzY29yZSA9ICR0ZW5uaXMtPnNjb3JlKDEsIDApOwoKICAgICAgICAkdGhpcy0+YXNzZXJ0RXF1YWxzKCRzY29yZSwgJ0ZpZnRlZW4gTG92ZScpOwogICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogQHJldHVybiBtaXhlZAogICAgICovCiAgICBwdWJsaWMgZnVuY3Rpb24gZ2V0U2NvcmUoKQogICAgewogICAgICAgIHJldHVybiAkdGhpcy0+c2NvcmU7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIC8qKgogICAgICogQSBiYXNpYyB1bml0IHRlc3QgZXhhbXBsZS4KICAgICAqCiAgICAgKiBAcmV0dXJuIHZvaWQKICAgICAqLwogICAgcHVibGljIGZ1bmN0aW9uIHRlc3RFeGFtcGxlKCkKICAgIHsKICAgICAgICAkdGhpcy0+YXNzZXJ0VHJ1ZSh0cnVlKTsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICBuZXcgVGVuCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBpZiAK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByb3RlY3RlZCBmdW5jdGlvbiBzZXRVcCgpCiAgICB7CiAgICAgICAgcGFyZW50OjpzZXRVcCgpOwogICAgICAgIAogICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICJyZXF1aXJlLWRldiI6IHsKICAgICAgICAicGhwdW5pdC9waHB1bml0IjogIl44LjEiCiAgICB9LAo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgJHNjb3JlOwo=</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>set rnu</text>
       </register>
     </registers>
     <search>
@@ -90,6 +99,7 @@
       <history-cmd>
         <entry>wq</entry>
         <entry>w</entry>
+        <entry>set rnu</entry>
       </history-cmd>
       <history-expr />
       <history-input />
